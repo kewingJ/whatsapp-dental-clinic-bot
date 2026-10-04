@@ -16,7 +16,7 @@ def load_configurations(app):
         PHONE_NUMBER_ID=os.getenv("PHONE_NUMBER_ID"),
         VERIFY_TOKEN=os.getenv("VERIFY_TOKEN"),
         OPENAI_API_KEY=os.getenv("OPENAI_API_KEY"),
-        OPENAI_MODEL=os.getenv("OPENAI_MODEL", "gpt-4.1-mini"),
+        OPENAI_MODEL=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
         PUBLIC_URL=os.getenv("PUBLIC_URL"),
         LANGSMITH_TRACING=os.getenv("LANGSMITH_TRACING", "false"),
         LANGSMITH_ENDPOINT=os.getenv("LANGSMITH_ENDPOINT", "https://api.smith.langchain.com"),

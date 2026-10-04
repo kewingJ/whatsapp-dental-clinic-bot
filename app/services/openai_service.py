@@ -36,7 +36,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 USE_OPENROUTER = os.getenv("USE_OPENROUTER", "false").lower() in ("true", "1", "yes")
 
-OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 CONVERSATION_DB_PATH = os.getenv("CONVERSATION_DB_PATH", "data/conversations")
 BOOKING_CONTEXT_DB_PATH = os.getenv("BOOKING_CONTEXT_DB_PATH", "data/booking_context")
 
