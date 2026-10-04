@@ -271,7 +271,7 @@ When `LANGSMITH_TRACING=true` is enabled:
 
 ## Author
 
-**Kewing Jarquín**
+**Kewing Joel Jarquin Cerda**
 - GitHub: [@kewingJ](https://github.com/kewingJ)
 - Email: [kewingjarquin@gmail.com](mailto:kewingjarquin@gmail.com)
 
@@ -280,3 +280,5 @@ When `LANGSMITH_TRACING=true` is enabled:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Originally based on Datalumina's `python-whatsapp-bot` template (webhook handling and message sending). The appointment logic, AI function calling, Google Calendar integration, LangSmith observability and unit tests were developed by Kewing Joel Jarquin Cerda.
